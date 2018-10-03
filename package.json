@@ -1,0 +1,40 @@
+{
+  "name": "cronos",
+  "version": "1.0.0",
+  "description": "Cronos test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "pm2 start server.js --watch --update-env",
+    "test": "jest --detectOpenHandles --forceExit --coverage"
+  },
+  "author": "Daniel Lozano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-async-errors": "^3.0.0",
+    "helmet": "^3.13.0",
+    "mongoose": "^5.3.1",
+    "mongoose-sequence": "^4.0.1",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.24.1",
+    "jest": "^23.6.0",
+    "mockgoose": "^7.3.5",
+    "supertest": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mccapi/cronos-video-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mccapi/cronos-video-test/issues"
+  },
+  "homepage": "https://github.com/mccapi/cronos-video-test#readme"
+}
