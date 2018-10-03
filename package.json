@@ -4,7 +4,7 @@
   "description": "Cronos test",
   "main": "app.js",
   "scripts": {
-    "start": "node ./src/server.js",
+    "start": "node server.js",
     "dev": "pm2 start server.js --watch --update-env",
     "test": "jest --detectOpenHandles --forceExit --coverage"
   },
